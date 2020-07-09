@@ -10,6 +10,7 @@ team_warriors = []
 def average_height(total_heights, total_players):
 	return total_heights / total_players
 
+
 def clean_data():
 	"""
 	1) Reads the existing player data from the PLAYERS constants provided in constants.py 
@@ -135,7 +136,7 @@ def end_program():
 		)
 
 
-# MAIN PROGRAM
+#===================================MAIN PROGRAM===================================
 if __name__ == '__main__':
 	players_list = copy.deepcopy(constants.PLAYERS)
 	teams_list = copy.deepcopy(constants.TEAMS)
@@ -149,4 +150,3 @@ if __name__ == '__main__':
 	welcome()
 	menu()
 	end_program()
-
