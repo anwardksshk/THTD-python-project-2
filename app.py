@@ -3,7 +3,6 @@ import copy
 import random
 
 players_list = []
-teams_list = []
 team_panther = []
 team_bandits = []
 team_warriors = []
